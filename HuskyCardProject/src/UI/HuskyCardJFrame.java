@@ -406,11 +406,7 @@ public class HuskyCardJFrame extends javax.swing.JFrame {
         this.person.setFirstName(firstName);
         this.person.setLastName(lastName);
         this.person.setCollegeName(collegeName);
-//        this.person.setPhoneOff(phoneOff);
-//        this.person.setPhonePer(phonePer);
-//        this.person.setEmailOff(emailOff);
-//        this.person.setEmailPer(emailPer);
-        
+
         Address addressOfPerson = this.person.getAddress();
         addressOfPerson.setStreet(street);
         addressOfPerson.setApt(apt);        
