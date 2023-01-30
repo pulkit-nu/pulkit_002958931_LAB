@@ -20,22 +20,22 @@ public class ArrayClass {
     }
     
     public static void main(String[] argv){
-    int [] testArray = {1,2,3,4,5,6,7,8,9,10};
-    printArray(testArray);
-    for (int i = 0; i < 10; i++){
-        if (i%2 == 0)
-            testArray[i] *= 2;
-        else
-            testArray[i] *= 3;}
-    printArray(testArray);
-//    ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-//    System.out.println(arrayList);
-//    for (int i = 0; i < arrayList.size(); i++){
-//        if (i%2 == 0)
-//            arrayList.set(i, arrayList.get(i)*2);
-//        else
-//            arrayList.set(i, arrayList.get(i)*3);}
-//    System.out.println(arrayList);
+        int [] testArray = {1,2,3,4,5,6,7,8,9,10};
+        printArray(testArray);
+        for (int i = 0; i < 10; i++){
+            if (i%2 == 0)
+                testArray[i] *= 2;
+            else
+                testArray[i] *= 3;}
+        printArray(testArray);
+//        ArrayList<Integer> arrayList = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+//        System.out.println(arrayList);
+//        for (int i = 0; i < arrayList.size(); i++){
+//            if (i%2 == 0)
+//                arrayList.set(i, arrayList.get(i)*2);
+//            else
+//                arrayList.set(i, arrayList.get(i)*3);}
+//        System.out.println(arrayList);
     }
     
 }
