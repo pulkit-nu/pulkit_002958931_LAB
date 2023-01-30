@@ -21,6 +21,7 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     MainJFrame(DeliveryPackage deliveryPackage){
+        this.setVisible(true);
         initComponents();
         this.deliveryPackage = deliveryPackage;
     }
@@ -59,6 +60,11 @@ public class MainJFrame extends javax.swing.JFrame {
         });
 
         updateBtn.setText("Update");
+        updateBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                updateBtnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -110,6 +116,10 @@ public class MainJFrame extends javax.swing.JFrame {
     private void viewBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewBtnActionPerformed
         jSplitPane1.setRightComponent(new ViewJPanel(this.deliveryPackage));
     }//GEN-LAST:event_viewBtnActionPerformed
+
+    private void updateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateBtnActionPerformed
+        jSplitPane1.setRightComponent(new UpdateJPanel(this.deliveryPackage));
+    }//GEN-LAST:event_updateBtnActionPerformed
 
     /**
      * @param args the command line arguments

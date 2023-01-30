@@ -29,9 +29,9 @@ public class ViewJPanel extends javax.swing.JPanel {
         setPackageWeight.setText(String.valueOf(this.deliveryPackage.getPackageWeight()));
         setCustomerId.setText(String.valueOf(this.deliveryPackage.getCustomer().getCustomerId()));
         setCustomerFullName.setText(this.deliveryPackage.getCustomer().getCustomerFullName());
-        setProductId.setText(String.valueOf(this.deliveryPackage.getProduct().getProductId()));
-        setProductName.setText(this.deliveryPackage.getProduct().getProductName());
-        setProductPrice.setText(String.valueOf(this.deliveryPackage.getProduct().getProductPrice()));
+//        setProductId.setText(String.valueOf(this.deliveryPackage.getProduct().getProductId()));
+//        setProductName.setText(this.deliveryPackage.getProduct().getProductName());
+//        setProductPrice.setText(String.valueOf(this.deliveryPackage.getProduct().getProductPrice()));
     }
     
     /**
@@ -107,7 +107,7 @@ public class ViewJPanel extends javax.swing.JPanel {
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel4)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 89, Short.MAX_VALUE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
                                     .addComponent(setCustomerFullName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel3)
@@ -115,6 +115,11 @@ public class ViewJPanel extends javax.swing.JPanel {
                                     .addComponent(setCustomerId, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addContainerGap()))
         );
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {setPackageId, setPackageWeight, setProductId, setProductName, setProductPrice});
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {setCustomerFullName, setCustomerId});
+
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 378, Short.MAX_VALUE)

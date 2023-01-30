@@ -30,27 +30,27 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="setProductPrice" min="-2" max="-2" attributes="0"/>
+                          <Component id="setProductPrice" linkSize="1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="setProductId" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="setPackageWeight" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="setProductName" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="setPackageId" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="setProductId" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="setPackageWeight" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="setProductName" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="setPackageId" linkSize="1" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="89" max="32767" attributes="0"/>
-                                  <Component id="setCustomerFullName" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="78" max="32767" attributes="0"/>
+                                  <Component id="setCustomerFullName" linkSize="2" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="setCustomerId" min="-2" pref="75" max="-2" attributes="0"/>
+                                  <Component id="setCustomerId" linkSize="2" min="-2" pref="75" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>

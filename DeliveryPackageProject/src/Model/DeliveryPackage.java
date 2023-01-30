@@ -4,6 +4,8 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author pulkit
@@ -11,11 +13,11 @@ package Model;
 public class DeliveryPackage {
     int packageId;
     double packageWeight;
-    Product product;
+    ArrayList<Product> productList;
     Customer customer;
     
     public DeliveryPackage(){
-        this.product = new Product();
+        this.productList = new ArrayList<Product>();
         this.customer = new Customer();
     }
 
@@ -35,12 +37,12 @@ public class DeliveryPackage {
         this.packageWeight = packageWeight;
     }
 
-    public Product getProduct() {
-        return product;
+    public ArrayList<Product> getProductList() {
+        return productList;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
+    public void setProductList(ArrayList<Product> productList) {
+        this.productList = productList;
     }
 
     public Customer getCustomer() {
@@ -50,4 +52,25 @@ public class DeliveryPackage {
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
+
+    public Product createProduct(int productId, String productName, double productPrice){
+        Product product = new Product();
+        
+        product.setProductId(productId);
+        product.setProductName(productName);
+        product.setProductPrice(productPrice);
+        
+        this.productList.add(product);
+        return product;
+    }
+    
+    public Product findProduct(int pid){
+        for (Product p: this.productList){
+            if (p.getProductId() == pid){
+                return p;
+            }
+        }
+        return null;
+    }
+
 }
