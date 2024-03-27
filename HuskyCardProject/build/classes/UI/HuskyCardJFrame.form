@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSplitPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSplitPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="firstName" min="-2" max="-2" attributes="0"/>
+                                          <Component id="nuid" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="nuidText" pref="172" max="32767" attributes="0"/>
+                                          <Component id="firstNameText" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="phonePer" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="collegeName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lastName" min="-2" pref="88" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="41" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="phoneOffText" pref="172" max="32767" attributes="0"/>
+                                          <Component id="collegeNameText" max="32767" attributes="0"/>
+                                          <Component id="phonePerText" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lastNameText" alignment="1" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="emailPerText" min="-2" pref="171" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="emailOffText" max="32767" attributes="0"/>
+                                                      <Component id="streetText" max="32767" attributes="0"/>
+                                                      <Component id="cityStateText" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="aptText" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="zipCodeText" alignment="0" pref="171" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="emailPer" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cityState" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="apt" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="street" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="emailOff" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="phoneOff" min="-2" max="-2" attributes="0"/>
+                                  <Component id="zipCode" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                      <Component id="displayButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nuid" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nuidText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="collegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="collegeNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="phoneOff" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneOffText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="phonePerText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phonePer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emailOff" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="emailOffText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emailPer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailPerText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="street" min="-2" max="-2" attributes="0"/>
+                          <Component id="streetText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="apt" min="-2" max="-2" attributes="0"/>
+                          <Component id="aptText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cityState" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityStateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="zipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="zipCodeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                      <Component id="displayButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="lastNameText">
+            </Component>
+            <Component class="javax.swing.JButton" name="displayButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displayButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="street">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="streetText">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nuid">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NUID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="firstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="collegeName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CollegeName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nuidText">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nuidTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="firstNameText">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstNameTextActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="collegeNameText">
+            </Component>
+            <Component class="javax.swing.JLabel" name="phoneOff">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone(Off)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="phonePer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone(Per)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailOff">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email(Off)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailPer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email(Per)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cityState">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="zipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="phoneOffText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="phonePerText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailOffText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailPerText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="aptText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="cityStateText">
+            </Component>
+            <Component class="javax.swing.JTextField" name="zipCodeText">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="zipCode1" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstName1" min="-2" max="-2" attributes="0"/>
+                          <Component id="nuid1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastName1" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="collegeName1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneOff1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailOff1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="phonePer1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailPer1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="street1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityState1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="127" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="firstNameDisplay" pref="134" max="32767" attributes="0"/>
+                              <Component id="nuidDisplay" max="32767" attributes="0"/>
+                              <Component id="lastNameDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="collegeNameDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="phoneOffDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="phonePerDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="emailOffDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="streetDisplay" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cityStateDisplay" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="zipCodeDisplay" min="-2" pref="134" max="-2" attributes="0"/>
+                          <Component id="aptDisplay" min="-2" pref="134" max="-2" attributes="0"/>
+                          <Component id="emailPerDisplay" min="-2" pref="134" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="nuidDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nuid1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="9" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstNameDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstName1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lastNameDisplay" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lastName1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="collegeNameDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="collegeName1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="phoneOffDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phoneOff1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="phonePerDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="phonePer1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emailOffDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailOff1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="emailPer1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailPerDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="streetDisplay" min="-2" max="-2" attributes="0"/>
+                          <Component id="street1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aptDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cityState1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityStateDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="zipCode1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="zipCodeDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="73" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="nuidDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="firstNameDisplay">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstNameDisplayActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="lastNameDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="collegeNameDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="phoneOffDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="phonePerDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailOffDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailPerDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="streetDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="aptDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="cityStateDisplay">
+            </Component>
+            <Component class="javax.swing.JTextField" name="zipCodeDisplay">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zipCodeDisplayActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nuid1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NUID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="firstName1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lastName1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="collegeName1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CollegeName"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="phoneOff1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone(Off)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="phonePer1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Phone(Per)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailOff1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email(Off)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailPer1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email(Per)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="street1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Street"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cityState1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="zipCode1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ZipCode"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
